@@ -11,7 +11,7 @@ function Projects() {
         transition={{ duration: 1 }}
         className="my-20 text-center text-4xl"
       >
-        โปรเจ็ค
+        Project
       </motion.h2>
       <div className="">
         {PROJECTS.map((project, index) => (
@@ -30,7 +30,7 @@ function Projects() {
                   alt={project.title}
                   width={index == 1 || index == 5 ? 200 : 300}
                   height={index == 1 || index == 5 ? 50 : 250}
-                  className={`mb-6 rounded object-fill ${index == 1 || index == 5 ?'w-[14rem] h-96':'w-[22rem] h-52'} `}
+                  className={`mb-6 rounded object-fill ${index == 1 || index == 5 ?'w-[14rem] h-[28rem]':'w-[22rem] h-52'} `}
                 />
               
               <img
@@ -38,21 +38,21 @@ function Projects() {
                 alt={project.title}
                 width={index == 1 || index == 5 ?200:300}
                 height={index == 1 || index == 5 ?50:250}
-                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-96':'w-[22rem] h-52'} `}
+                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-[28rem]':'w-[22rem] h-52'} `}
               />
               <img
                 src={project.image3}
                 alt={project.title}
                 width={index == 1 || index == 5 ?200:300}
                 height={index == 1 || index == 5 ?50:250}
-                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-96':'w-[22rem] h-52'} `}
+                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-[28rem]':'w-[22rem] h-52'} `}
               /> 
               <img
                 src={project.image4}
                 alt={project.title}
                 width={index == 1 || index == 5 ?200:300}
                 height={index == 1 || index == 5 ?50:250}
-                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-96':'w-[22rem] h-52'} `}
+                className={`mb-6 rounded object-fill hidden lg:block ${index == 1 || index == 5 ?'w-[14rem] h-[28rem]':'w-[22rem] h-52'} `}
               /> 
             </motion.div>
             <motion.div
